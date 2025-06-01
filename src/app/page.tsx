@@ -373,11 +373,11 @@ export default function Home() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center space-x-2">
-                  <Switch id="airplane-mode" />
+                  <Switch id="airplane-mode" defaultChecked={true} />
                   <Label htmlFor="airplane-mode">Airplane Mode</Label>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Checkbox id="terms" />
+                  <Checkbox id="terms" defaultChecked={true} />
                   <Label htmlFor="terms">Accept terms and conditions</Label>
                 </div>
               </CardContent>

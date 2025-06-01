@@ -106,13 +106,17 @@ export function useTheme() {
 
 export function ThemeProvider({
   children,
+  defaultColorTheme = "violet",
   ...props
 }: React.ComponentProps<typeof NextThemesProvider> & {
   children: React.ReactNode;
+  defaultColorTheme?: string;
 }) {
   return (
     <NextThemesProvider {...props}>
-      <ColorThemeProvider>{children}</ColorThemeProvider>
+      <ColorThemeProvider defaultColorTheme={defaultColorTheme}>
+        {children}
+      </ColorThemeProvider>
     </NextThemesProvider>
   );
 }
