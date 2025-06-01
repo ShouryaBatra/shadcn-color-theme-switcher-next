@@ -14,7 +14,7 @@ A comprehensive implementation of a light/dark mode toggle and color theme switc
 
 - **Component Showcase:** Extensive demo of 25+ shadcn components with live theme switching
 
-## 🚀 Demo
+## Demo
 
 **[Live Demo: https://shadcn-color-theme-switcher-next.vercel.app/](https://shadcn-color-theme-switcher-next.vercel.app/)**
 
@@ -107,7 +107,7 @@ export default function RootLayout({
 }
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Basic Implementation
 
@@ -163,7 +163,7 @@ export function MyComponent() {
 }
 ```
 
-## 🎨 Theme Customization
+## Theme Customization
 
 ### Available Color Themes
 
@@ -235,7 +235,7 @@ This project uses OKLCH color space for several advantages:
 
 - **Future-proof** - Better browser support coming for wide-gamut displays
 
-## 🏗 Architecture
+## Architecture
 
 The theme system consists of three main components:
 
@@ -267,7 +267,7 @@ The theme system consists of three main components:
 
 - Accessibility compliant
 
-## 🧩 Component Support
+## Component Support
 
 The theme system works seamlessly with all shadcn components:
 
@@ -283,7 +283,7 @@ The theme system works seamlessly with all shadcn components:
 
 **Advanced:** Calendar, Command, Scroll Area, Separator, Tabs
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to:
 
