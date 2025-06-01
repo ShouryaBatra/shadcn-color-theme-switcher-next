@@ -305,7 +305,7 @@ Contributions are welcome! Please feel free to:
 
 Passionate computer science student at Homestead High School, building beautiful and functional web experiences.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
