@@ -20,7 +20,7 @@ A comprehensive implementation of a light/dark mode toggle and color theme switc
 
 Experience the full theme switching functionality and see all 8 color themes in action!
 
-## 🛠 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
